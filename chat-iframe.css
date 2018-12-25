@@ -1,0 +1,42 @@
+.chat-iframe-mini{	
+         border: none;	
+         display: block;	
+         /*height: 85% !important;	
+         width: 310px !important;	
+         bottom: 1px;	
+         right: 1px;*/	
+         height: 65px !important;	
+         width: 65px !important;	
+         bottom: 1px;	
+         right: 1px;	
+         position: fixed;	
+         top: auto;	
+         left: auto;	
+         visibility: visible;	
+         z-index: 2147483647;	
+         max-height: 100vh;	
+         max-width: 100vw;	
+         transition: none 0s ease 0s;	
+         background: none transparent;	
+         opacity: 1;	
+         pointer-events: auto;	
+     }	
+ .chat-iframe-popped{	
+         border: none;	
+         display: block;	
+         height: 85% !important;	
+         width: 365px !important;	
+         bottom: 1px;	
+         right: 1px;	
+         position: fixed;	
+         top: auto;	
+         left: auto;	
+         visibility: visible;	
+         z-index: 2147483647;	
+         max-height: 100vh;	
+         max-width: 100vw;	
+         transition: none 0s ease 0s;	
+         background: none transparent;	
+         opacity: 1;	
+         pointer-events: auto;	
+     }
