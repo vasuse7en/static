@@ -8,8 +8,8 @@ function bindEvent(element, eventName, eventHandler) {
 
 bindEvent(window, 'message', function(e) {
     if (e.data === "enable-popup") {
-        document.getElementById("chatbot-iframe").className = "iframe-transifex-popped";
+        document.getElementById("chatbot-iframe").className = "chat-iframe-popped";
     } else if (e.data === "disable-popup") {
-        document.getElementById("chatbot-iframe").className = "iframe-transifex-mini";
+        document.getElementById("chatbot-iframe").className = "chat-iframe-mini";
     }
 });
