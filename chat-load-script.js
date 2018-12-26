@@ -1,6 +1,6 @@
 (function () {
     // write html wherever this function is called
-document.write(`<iframe id="chatbot-iframe" class='chat-iframe-mini' src="http://192.168.100.239:3000" name="targetframe" allowtransparency="true" scrolling="no" frameborder="0" >
+document.write(`<iframe id="chatbot-iframe" class='chat-iframe-mini' src="http://nxter-assistant.eu-gb.mybluemix.net" name="targetframe" allowtransparency="true" scrolling="no" frameborder="0" >
 </iframe>`);
 var head  = document.getElementsByTagName('head')[0];
 var link  = document.createElement('link');
